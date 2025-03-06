@@ -1,0 +1,82 @@
+	Explicando detalhes das tags HTML
+
+AVISO: IDENTAÇÃO NÃO IMPORTA, É USADA PARA A
+LEITURA DO CÓDIGO FICAR MAIS VISUAL.
+
+
+h1_h6. Quanto menor o número da tag, maior o título
+
+
+p. cria um parágrafo, e por padrão já da um espaço
+
+
+br. pula uma linha
+
+
+img. src="pasta/arquivo" - coloco o arquivo da foto ou link
+	alt="mensagem" - se não aparecer a imagem, mostra essa mensagem
+
+
+b. deixa o texto em negrito
+
+
+hr. cria uma linha horizontal para organização
+
+
+u. sublinha o texto
+
+
+a. href="coloca o link">colocar o texto</a>
+	target="_blank" - para abrir o link em uma nova página
+
+
+
+ol. Pode criar lista dentro de lista
+	<li> - são linhas de escrita
+
+
+ul. Pode criar lista dentro de lista
+	<li> - são linhas de escrita
+
+
+table. cria uma tabela
+	<thead> - Contém uma linha de cabeçalho
+		<tr> - representa uma linha da tabela
+			<th> - Define as células da linha de cabeçalho.
+	# SEMPRE RELACIONA O 1° DE HEAD COM O 1° DE BODY
+	<tbody> - Agrupa as linhas com os dados da tabela.
+		<tr> - representa uma linha da tabela
+			<th> - Define as células da linha de cabeçalho.
+
+
+form. envia um formulário ao back-end/servidor
+	DENTRO DO FORM PRECISO DE UMA ESTRUTURA!!!
+	action="" - quando enviado pede a pág que está o form
+		(se deixar em branco, fica na pág que está)
+	methods="" - são os métodos HTTP
+
+
+input. campo para o usuário digitar
+	type="" - defini o que o usuário pode digitar
+	type="checkbox" - cria uma caixa de seleção
+	type="number" - usuário só pode digitar números
+		step="" - de quanto em quanto o usuário pode digitar
+		min="" - o valor mínimo que o usuário pode digitar
+		max="" - o valor máximo que o usuário pode digitar
+
+
+select. cria uma caixa de seleção
+	name="" - para enviar ao servidor as informações
+	<options> - crio opções de escolha
+		value="" - para enviar ao servidor o seu valor
+
+
+textarea. Cria um 'bloco' para escrever
+	name="" - para saber onde salvar as informações no servidor
+	cols="" - A quantidade de colunas
+	rows="" - A quantida de linhas
+	O USUÁRIO CONSEGUE ALTERALAS!!!
+
+
+button. usuário aperta para executar ação
+	type="submit" - Enviar informação
