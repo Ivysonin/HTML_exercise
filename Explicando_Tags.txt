@@ -58,6 +58,7 @@ form. envia um formulário ao back-end/servidor
 
 input. campo para o usuário digitar
 	type="" - defini o que o usuário pode digitar
+	required - o campo do input será obrigatório
 	type="checkbox" - cria uma caixa de seleção
 	type="number" - usuário só pode digitar números
 		step="" - de quanto em quanto o usuário pode digitar
